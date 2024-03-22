@@ -706,7 +706,7 @@ export class Datasource
   }
   
   getLogRowContextUi(row: LogRowModel, runContextQuery?: (() => void) | undefined): ReactNode {
-    return false;
+    return true;
   }
 }
 
